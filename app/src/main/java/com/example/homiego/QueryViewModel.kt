@@ -14,7 +14,7 @@ class QueryViewModel : ViewModel() {
 
     val generativeModel : GenerativeModel = GenerativeModel(
         modelName = "gemini-1.5-pro-002",
-        apiKey = "AIzaSyBWh9gZoCj9HNx0EKSRjfAdn4PSmZsuhwY"
+        apiKey = "YOUR_API_KEY"
     )
 
     fun sendMessage(question : String) {
